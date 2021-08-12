@@ -60,8 +60,6 @@ def get_authenticated_service():
 
 def add_to_playlist(video_ids):
     p_id = input('Enter playlist id: ')
-    
-    p_id = 'PLBUXQsEUG0eKsD1DUV2T1tRwjd2BpkseP'
 
     youtube = get_authenticated_service()
     batch = youtube.new_batch_http_request()
